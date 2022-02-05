@@ -5,7 +5,7 @@ Python script to Automate a Bank Reconciliation process in excel.
 
 <h3>Business rules:</h3>
 
-Note: They are two excel sheets for this automation process; Bank sheet, and sage sheet.
+Note: There are two excel sheets for this automation process; Bank sheet, and sage sheet.
 <ol>
 <li>
 Compare the first bankrow price, with all the rows in the sage sheet, if the prices column of both sheets match, reconcile the bank row. If the bank price does not match with any row in the sage sheet, add the row number to unreconciled row list.
